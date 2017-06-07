@@ -1,0 +1,28 @@
+@media screen and (max-width: 720px){
+	.handle {display: block;padding: 24px 10px;color: #fff}
+	.showing {max-height: 30em;width: 100%}
+
+	.wrapper-nav {width: 100%}
+
+	nav ul li {width: 100%;padding: 15px 0px;padding-left: 5px}
+	nav ul {max-height: 0em;}
+	
+	.wrapper-header {width: 95%} 
+
+	.col-6-about {width: 100%;float: none;}
+
+	.col-6-about img {padding: 40px 0px}
+
+	.col-6-support {width: 100%;float: none}
+
+	.services .rows-services .col {width: 100%;float: none;color:#0AAFF3;text-align: center; }
+
+	.client img {width: 20%}
+
+	.col-6-footer {width: 100%;float: none;}
+
+
+
+
+
+}

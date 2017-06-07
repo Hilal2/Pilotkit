@@ -1,0 +1,79 @@
+body {margin: 0 ; padding: 0;font-family: 'roboto';}
+
+a{color: inherit;text-decoration: none;}
+
+@font-face {font-family: 'roboto'; src: url('fonts/Roboto.ttf');}
+@font-face {font-family: 'proxima_nova'; src: url('fonts/Proxima_Nova.otf');}
+
+nav {background: #0baff3 ; position: fixed; width: 100%;z-index: 999}
+.wrapper-nav {width: 80%; margin: 0 auto}
+nav ul {margin: 0; padding: 0;list-style-type: none;overflow: hidden;}
+nav img {float: left;width: 50px;padding: 12px 0px}
+nav ul li {float: right; padding: 27px 15px;color: #fff;font-family: 'roboto'; transition: 0.4s}
+nav ul li:hover {background: #fff;color:#0baff3 } 
+
+.handle {float: right;display: none;cursor: pointer;padding: 10px 10px;font-size: 18px;}
+
+header {background-image: url(img/cover.jpg); background-repeat: no-repeat; background-size: cover;background-position: center; height: 628px}
+.wrapper-header {width: 40%;margin: 0 auto}
+header .text {text-align: center;padding-top: 200px;color: #fff}
+header h3 {font-size: 30px}
+header h2 {font-size: 46px}
+header p {font-size: 18px}
+header h3,header h2,header p {margin: 0;}
+
+.about {background: #F6F6F6}
+.wrapper-about {width: 80%;margin: 0 auto}
+.col-6-about {width: 50%;float: left;}
+.col-6-about img {width: 80%; display: block;margin: 0 auto}
+.col-6-about h2 {margin: 0;color: #0AAFF3;font-size: 30px;padding-top: 50px}
+.col-6-about p {letter-spacing: 0.5px;line-height: 2em;opacity: 0.5}
+.col-6-about button {border: solid 1px #0AAFF3;border-radius: 100px;background: #0AAFF3;color: #fff;font-size: 17px;padding: 5px 26px;transition: 0.3s;
+				box-shadow: 0px 2px 2px 1px #A3A3A3}
+.col-6-about button:hover {border: #0A9CF3 1px solid;background: #0A9CF3;}
+
+.support {background: #fff}
+.wrapper-support {width: 80%;margin: 0 auto}
+.col-6-support img {width: 350px; display: block;margin: 0 auto}
+.col-6-support {width: 50%;float: left;}
+.col-6-support img {width: 80%; display: block;margin: 0 auto;padding-top: 30px}
+.col-6-support h2 {margin: 0;color: #0AAFF3;font-size: 30px;padding-top: 50px}
+.col-6-support p {letter-spacing: 0.5px;line-height: 2em;opacity: 0.5}
+.col-6-support .black {letter-spacing: 0.5px;line-height: 2em;opacity: 1}
+
+.services h2{text-align: center;margin: 0;color: #0AAFF3;font-size: 30px;padding: 80px 0px 50px 0px;}
+.wrapper-services {width: 80%;margin: 0 auto;}
+.col {width: 25%;float: left;color:#0AAFF3;text-align: center; transition: 0.4s}
+.col img {width: 70%;display: block;margin: 0 auto}
+.services .col:hover {box-shadow: 1px 1px 8px #ccc;}
+
+.our-work {background:#F6F6F6 ;text-align: center;padding: 40px 0px}
+.wrapper-our-work {width: 80%;margin: 0 auto}
+.our-work h2 {text-align: center;margin: 0;color: #0AAFF3;font-size: 30px;padding: 0px 0px 20px 0px;}
+.our-work p {opacity: 0.6}
+.our-work img {width: 30%;display: block;margin: 0 auto;padding: 30px 0px}
+.our-work button {border: solid 1px #0AAFF3;border-radius: 100px;background: #0AAFF3;color: #fff;font-size: 14px;padding: 5px 26px;transition: 0.3s;
+				box-shadow: 0px 2px 2px 1px #A3A3A3;margin: 0px 0px;}
+.our-work button:hover {border: #0A9CF3 1px solid;background: #0A9CF3;}
+
+.client {padding-top: 48px;text-align: center;}
+.wrapper-client {width: 80%;margin: 0 auto}
+.client img {width: 8%;display: block;margin: 0 auto}
+.client h2 {margin: 0;opacity: 0.8;font-size: 28px}
+.client p {margin: 0;opacity: 0.4}
+.client h4 {color: #0AAFF3;font-size: 20px}
+
+.contact {text-align: center;background: #0AAFF3;padding: 20px 0px}
+.wrapper-contact {width: 80%;margin: 0 auto}
+.contact h1 {color: #fff;font-size: 30px}
+.contact button {border: solid 2px #fff;border-radius: 100px;background: #0AAFF3;color: #fff;font-size: 14px;padding: 5px 26px;transition: 0.3s;
+				margin: 0px 0px;}
+.contact button:hover {border: #0A9CF3 2px solid;background: #0A9CF3;}
+
+footer {padding: 40px 0px;position: relative;}
+.wrapper-footer {width: 80%;margin: 0 auto}
+.col-6-footer {width: 50%;float: left;}
+.col-6-footer ul {float: left;color: #000;list-style-type: none;}
+.col-6-footer ul li {padding: 10px}
+
+footer .color {background:#0AAFF3;width: 100%;padding: 3px 0px;position: absolute; bottom: 0 ;left: 0;right: 0}
